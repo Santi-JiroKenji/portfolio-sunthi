@@ -117,7 +117,7 @@ export class ProfileService {
   Have understanding of HTML, CSS, Bootstrap, MongoDB, Firebase, Figma`
 
   about = "I like to learn new things and I can learn quickly."
-  resumeurl = "https://drive.google.com/file/d/1XY0xlYDX8aZA1KwCnnjH6Y3G4iTWcV-D/view?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/1joV65Cl-9wmTttdosUQBJXFFlwkoSHUf/view?usp=sharing"
 
   skillsData: any = [
     {
