@@ -32,6 +32,14 @@ export class ProfileService {
     },
     {
       id: 3,
+      title: 'Food Restaurant Landing Page',
+      desc: 'Landing Single Page app',
+      livedemo: 'https://spontaneous-praline-84d5ef.netlify.app/',
+      imgUrl: 'assets/images/food-restaurant-landing-page.JPG',
+      tech: 'CSS, HTML'
+    },
+    {
+      id: 4,
       title: 'G-Shock MERN E-Commerce',
       desc: 'web application e-commerce for sales G-Shock Watch',
       livedemo: 'https://gshock-mern-commerce-begin.herokuapp.com/',
@@ -39,7 +47,7 @@ export class ProfileService {
       tech: 'React, Node.js, MongoDB, (MERN), Axios, API'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Angular MEAN CRUD',
       desc: 'Angular MEAN web application CRUD',
       livedemo: 'https://angular-mean-crud.herokuapp.com/',
@@ -47,7 +55,7 @@ export class ProfileService {
       tech: 'Angular, Node.js, MongoDB, (MEAN), API, Bootstrap'
     },
     {
-      id: 5,
+      id: 6,
       title: 'React MERN CRUD',
       desc: 'React MERN web application CRUD',
       livedemo: 'https://react-mern-crud-fix-deploy.herokuapp.com/',
@@ -55,7 +63,7 @@ export class ProfileService {
       tech: 'React, Node.js, MongoDB, (MERN), Axios, API, Bootstrap'
     },
     {
-      id: 6,
+      id: 7,
       title: 'React MERN CRUD',
       desc: 'React MERN web application CRUD',
       livedemo: 'https://react-mern-crud-fullstack.herokuapp.com/',
@@ -63,7 +71,7 @@ export class ProfileService {
       tech: 'React, Node.js, MongoDB, (MERN), Axios, API, Bootstrap'
     },
     {
-      id: 7,
+      id: 8,
       title: 'Crypto Tracker',
       desc: 'web for tracking crypto currency movement using coingecko api',
       livedemo: 'https://crypto-tracker-f53e13.netlify.app/',
@@ -71,7 +79,7 @@ export class ProfileService {
       tech: 'React, Axios'
     },
     {
-      id: 7,
+      id: 9,
       title: 'CSS Christmas Tree Animation',
       desc: 'Using JavaScript and CSS only',
       livedemo: 'https://css-christmas-tree.netlify.app/',
@@ -79,7 +87,7 @@ export class ProfileService {
       tech: 'CSS, JavaScript'
     },
     {
-      id: 8,
+      id: 10,
       title: 'CSS Circle Animation',
       desc: 'Using JavaScript and CSS only',
       livedemo: 'https://css-th-circle.netlify.app/',
@@ -87,7 +95,7 @@ export class ProfileService {
       tech: 'CSS, JavaScript'
     },
     {
-      id: 8,
+      id: 11,
       title: 'React Multi Pages',
       desc: 'Multi Pages React app',
       livedemo: 'https://react-multipage-9fc498.netlify.app/',
@@ -95,7 +103,7 @@ export class ProfileService {
       tech: 'React, Bootstrap, JavaScript'
     },
     {
-      id: 8,
+      id: 12,
       title: 'React Landing Page',
       desc: 'Landing Single Page React app',
       livedemo: 'https://react-landing-page-4ab8b3.netlify.app/',
@@ -103,7 +111,7 @@ export class ProfileService {
       tech: 'React, Bootstrap, JavaScript'
     },
     {
-      id: 8,
+      id: 13,
       title: 'Bootstrap Landing Page',
       desc: 'Landing Single Page Bootstrap app',
       livedemo: 'https://bootstrap-landing-pages-jiro.netlify.app/',
@@ -117,38 +125,48 @@ export class ProfileService {
   Have understanding of HTML, CSS, Bootstrap, MongoDB, Firebase, Figma`
 
   about = "I like to learn new things and I can learn quickly."
-  resumeurl = "https://drive.google.com/file/d/1QgryZw6EyvaqkkowcXcdAbs3tXHK9EQo/view?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/1DBO_buza7ied5aH7Mm8nwxn1HtBkaUJu/view?usp=sharing"
 
   skillsData: any = [
     {
       'id': '1',
-      'skill': 'ANGULAR',
-      'progress': '75%'
+      'skill': 'HTML, CSS, JavaScript, TypeScript',
+      'progress': '95%'
     },
     {
       'id': '2',
-      'skill': 'REACT',
-      'progress': '70%'
+      'skill': 'C#.NET, ASP.NET',
+      'progress': '90%'
     },
     {
       'id': '3',
-      'skill': 'JAVASCRIPT',
-      'progress': '75%'
+      'skill': 'AngularJS, ReactJS, AngularTS, ReactTS',
+      'progress': '90%'
     },
     {
       'id': '4',
-      'skill': 'MONGODB, FIREBASE',
-      'progress': '70%'
+      'skill': 'git control and CI/CD (GitLab, Github, Jenkins)',
+      'progress': '80%'
     },
     {
       'id': '5',
-      'skill': 'NODE JS, JSON, GIT',
-      'progress': '70%'
+      'skill': 'SQL and database management (SQL Server, MongoDB)',
+      'progress': '85%'
     },
     {
       'id': '6',
-      'skill': 'HTML, CSS, BOOTSTRAP, FIGMA',
+      'skill': 'Knowledge of cashing in memory data (Redis)',
       'progress': '75%'
+    },
+    {
+      'id': '7',
+      'skill': 'Knowledge of Agile and Scrum methodology',
+      'progress': '75%'
+    },
+    {
+      'id': '8',
+      'skill': 'Strong time management skills',
+      'progress': '95%'
     }
   ];
 
@@ -160,11 +178,8 @@ export class ProfileService {
       'education': 'Bachelor\'s Degree',
       'stream': 'Computer Engineering',
       'province': 'Nakhon Ratchasima',
-      'institution': 'ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY, AHMEDABAD',
-      'info': `Aditya Silver Oak Institute is GTU Affiliated and ranks 7th in Gujurat
-Completed B.E in Computer Engineering with 9.54 CGPA.
-Won the Best Student Award 3 times for excellent Academic records at College.
-Maintained above 9.1 spi in every semester of college academic .`
+      'institution': '',
+      'info': ``
     },
     {
       'id': '2',
@@ -172,27 +187,29 @@ Maintained above 9.1 spi in every semester of college academic .`
       'education': 'Higher School',
       'stream': 'Science and Mathematics',
       'province': 'Nong khai',
-      'institution': 'GYANDEEEP VIDHYALAYA,AHMEDABAD',
-      'info': `The High School was mainly focus on the bases of science, mathematics, and Chemistry
-There was also a good base on physics, mathematics and chemistry.
-Completed my high school with 78%.`
+      'institution': '',
+      'info': ``
     }
   ];
   exprienceData: any = [
 
     {
       id: 2,
-      company: 'Studying and writing code almost every day',
-      timeline: 'Present',
-      role: '',
-      work: ''
+      company: 'PTT Digital Solution Co.,Ltd',
+      timeline: 'March 2021 - Present',
+      role: 'Full Stack Developer',
+      work: `Conducted rigorous testing and debugging of applications .
+      Coordinated with senior programmers to optimize code .
+      Improved and Developing web application including Frontend, Backend, database management and .
+      Improved and Developing web application including Frontend, Backend, database management and API, and I have been involved in project responsibility in many projects such as Human resource management system, Evaluation system and Expense management system etc.
+      `
     },
 
     {
       id: 1,
-      company: 'HandyWings Co.,Ltd',
+      company: 'Handy Wings Co.,Ltd',
       timeline: 'July 2020 - November 2020',
-      role: 'Frontend (Angular)',
+      role: 'Frontend Developer',
       work: `Technologies: Angular, Node JS, Git, Json, Figma .
       Worked on developing and improved the admin dashboard with different charts and insights for the web application built in Angular for different logistics business .
       Worked on training to use software for employees of customer companies .

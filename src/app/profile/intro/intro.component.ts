@@ -11,7 +11,7 @@ export class IntroComponent implements OnInit {
   constructor(private profileService:ProfileService) { }
 
   ngOnInit() {
-
+    
     this.cvUrl =  this.profileService.resumeurl
   }
 
